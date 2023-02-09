@@ -13,7 +13,7 @@ export default function Navbar() {
           <img src="../../src/assets/images/logo.svg" alt="logo" />
         </div>
         {width > 767 ? (
-          <ul className="flex items-center text-gray-800 text-lg gap-4">
+          <ul className="flex items-center text-gray-800 text-lg gap-4 xl:text-xl">
             <li className="px-4 cursor-pointer ease-in-out duration-200 hover:text-soft-red">
               Home
             </li>

@@ -26,7 +26,7 @@ function App() {
 function MainSection() {
   return (
     <section className="py-10">
-      <div className="container mx-auto px-4 flex flex-col md:px-0 md:flex-row">
+      <div className="container mx-auto px-4 flex flex-col md:px-0 md:flex-row md:gap-8">
         <Main />
         <Feed />
       </div>

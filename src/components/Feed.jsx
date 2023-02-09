@@ -19,8 +19,8 @@ const initialNews = [
 export default function Feed() {
   const [news, setNews] = useState(initialNews);
   return (
-    <div className="flex-1 bg-very-dark-blue p-4 text-soft-orange mt-12 md:max-w-xs md:mt-0">
-      <h3 className="text-2xl font-bold">New</h3>
+    <div className="flex-1 bg-very-dark-blue p-4 text-soft-orange mt-12 md:max-w-xs md:mt-0 xl:min-w-[500px]">
+      <h3 className="text-2xl font-bold xl:text-4xl">New</h3>
       <ul>
         {news.map(({ title, text }) => {
           return <FeedItem key={nanoid()} title={title} text={text} />;
