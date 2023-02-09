@@ -11,12 +11,12 @@ function App() {
     console.log(active);
   }, [active]);
   return (
-    <div id="wrapper" className="relative">
+    <div id="wrapper" className="relative overflow-hidden">
       <Navbar />
       <MainSection />
       <Cards />
       <div
-        className={`absolute h-screen w-screen inset-0 bg-soft-red ${
+        className={`absolute min-h-screen min-w-screen inset-0 bg-soft-red ${
           active ? "opacity-25" : "opacity-0 hidden"
         } duration-200 ease-in-out`}
       ></div>
