@@ -7,12 +7,9 @@ export default function Main() {
         <picture>
           <source
             media="(max-width: 768px)"
-            srcSet="../../src/assets/images/image-web-3-mobile.jpg"
+            srcSet="/assets/images/image-web-3-mobile.jpg"
           />
-          <img
-            src="../../src/assets/images/image-web-3-desktop.jpg"
-            alt="cover"
-          />
+          <img src="/assets/images/image-web-3-desktop.jpg" alt="cover" />
         </picture>
       </div>
       <div className="flex flex-col flex-wrap justify-between mt-4 md:flex-row">

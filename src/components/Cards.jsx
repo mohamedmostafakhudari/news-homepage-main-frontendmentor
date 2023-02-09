@@ -7,19 +7,19 @@ const initialCards = [
     order: ++nextId,
     title: "Reviving Retro PCs",
     text: "What happens when old PCs are given modern upgrades?",
-    imgSrc: "../../src/assets/images/image-retro-pcs.jpg",
+    imgSrc: "/assets/images/image-retro-pcs.jpg",
   },
   {
     order: ++nextId,
     title: "Top 10 Laptops of 2022",
     text: "Our best picks for various needs and budgets.",
-    imgSrc: "../../src/assets/images/image-top-laptops.jpg",
+    imgSrc: "/assets/images/image-top-laptops.jpg",
   },
   {
     order: ++nextId,
     title: "The Growth of Gaming",
     text: "How the pandemic has sparked fresh opportunities.",
-    imgSrc: "../../src/assets/images/image-gaming-growth.jpg",
+    imgSrc: "/assets/images/image-gaming-growth.jpg",
   },
 ];
 export default function Cards() {
