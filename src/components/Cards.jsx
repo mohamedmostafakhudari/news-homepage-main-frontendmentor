@@ -26,7 +26,7 @@ export default function Cards() {
   const [cards, setCards] = useState(initialCards);
   return (
     <section className="px-4 pb-20 mt-4">
-      <div className="container mx-auto flex flex-col gap-10 md:flex-row md:gap-6">
+      <div className="container mx-auto flex flex-col gap-10 md:flex-wrap md:flex-row md:gap-6 lg:flex-nowrap">
         {cards.map(({ order, title, text, imgSrc }) => (
           <Card
             key={nanoid()}
