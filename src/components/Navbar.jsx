@@ -1,6 +1,5 @@
 import React from "react";
 import useWindowSize from "../../src/hooks/useWindowSize";
-import { useState } from "react";
 import { useActive, useActiveToggle } from "../context";
 export default function Navbar() {
   const { width, height } = useWindowSize();
@@ -10,7 +9,7 @@ export default function Navbar() {
     <nav className="pt-10">
       <div className="container mx-auto flex justify-between items-center px-4 md:px-0">
         <div>
-          <img src="/assets/images/logo.svg" alt="logo" />
+          <img src="./assets/images/logo.svg" alt="logo" />
         </div>
         {width > 767 ? (
           <ul className="flex items-center text-gray-800 text-lg gap-4 xl:text-xl">
