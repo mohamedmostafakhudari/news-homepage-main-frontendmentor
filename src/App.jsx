@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import Main from "./components/Main";
 import Feed from "./components/Feed";
+import Cards from "./components/Cards";
 import { useActive } from "./context";
 import { useEffect } from "react";
 function App() {
@@ -13,6 +14,7 @@ function App() {
     <div id="wrapper" className="relative">
       <Navbar />
       <MainSection />
+      <Cards />
       <div
         className={`absolute h-screen w-screen inset-0 bg-soft-red ${
           active ? "opacity-25" : "opacity-0 hidden"
