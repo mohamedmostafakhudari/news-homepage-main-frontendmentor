@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import Main from "./components/Main";
 import Feed from "./components/Feed";
 import Cards from "./components/Cards";
+import Copyright from "./components/Copyright";
 import { useActive } from "./context";
 import { useEffect } from "react";
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Navbar />
       <MainSection />
       <Cards />
+      <Copyright />
       <div
         className={`absolute min-h-screen min-w-screen inset-0 bg-soft-red ${
           active ? "opacity-25" : "opacity-0 hidden"
