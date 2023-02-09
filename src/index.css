@@ -23,6 +23,3 @@ body {
 #hamburger.active span:nth-child(2) {
   opacity: 0;
 }
-/* #menu.active {
-  transform: translateX(-100%);
-} */
